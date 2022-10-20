@@ -8,10 +8,6 @@
 //
 int GetQuarterNumber(int x, int y) 
 {
-        
-    
-        
-
     if (x > 0 && y > 0)
         return 1;
 
@@ -42,4 +38,6 @@ if (result > 0)
 
 else
 
-    Console.WriteLine("Неверные данные вводв.");
+    Console.WriteLine("Неверные данные ввода.");
+
+Console.WriteLine(GetQuarterNumber(10, 10)!);
